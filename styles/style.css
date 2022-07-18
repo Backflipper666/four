@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'TTLakes-Regular';
+    src: url('../fonts/TTLakes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TTLakesCondensed-ExtraLight';
+    src: url('../fonts/TTLakesCondensed-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTLakes-Light';
+    src: url('../fonts/TTLakes-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TTLakesCondensed-DemiBold';
+    src: url('../fonts/TTLakesCondensed-DemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TTLakesCondensed-Light';
+    src: url('../fonts/TTLakesCondensed-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*TTLakesCondensed-Light*/
 #root{
     position: absolute;
     top: 0;
@@ -6,9 +42,7 @@
     margin: 0;
 }
 html, body {
-    height: 100%
-  
-    
+    height: 100vh;
   }
 
   body {
@@ -91,20 +125,14 @@ div.upperMenu img{
     margin-left: 15px;
     position: relative;
     font-weight: 500;
-    @font-face {
-        font-family: TTLakes;
-        src: url(TTLakes/TTLakes-DemiBold.woff);
-    }
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'TTLakesCondensed-ExtraLight', sans-serif;
     
 }
 
 .links__services{
-    @font-face {
-        font-family: TTLakes;
-        src: url(TTLakes/TTLakes-DemiBold.woff);
-    }
+    font-family: 'TTLakes-Regular', sans-serif;
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -150,11 +178,13 @@ div.upperMenu img{
     margin-bottom: 15px;
 }
 .bottom-menu__mail{
+    font-family: 'TTLakes-Light', sans-serif;
     margin-left: 20px;
     margin-bottom: 15px;
     font-weight: 200;
 }
 .bottom-menu__phone{
+    font-family: 'TTLakesCondensed-DemiBold', sans-serif;
     margin-left: 20px;
     margin-bottom: 40px;
     font-weight: 900;
@@ -162,6 +192,7 @@ div.upperMenu img{
 }
 
 .bottom-menu__languages{
+    font-family: 'TTLakesCondensed-Light', sans-serif;
     margin-left: 20px;
     margin-bottom: 20px;
 }
