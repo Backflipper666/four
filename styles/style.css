@@ -1,3 +1,8 @@
+:root {
+    --dark-blue-color: #41F6D7;
+    --light-blue-color:#B8FFEC;
+  }
+  
 @font-face {
     font-family: 'TTLakes-Regular';
     src: url('../fonts/TTLakes-Regular.woff') format('woff');
@@ -141,7 +146,6 @@ div.upperMenu img{
     list-style-type: none;
     margin-left: -25px;
     padding-left: 0;
-    
 }
 
 /* 
@@ -152,6 +156,19 @@ div.upperMenu img{
     background-color: #807575;
 
 } */
+.bottom-menu__buttons{
+     
+}
+.bottom-menu__call{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("../images/call.svg") no-repeat 50% 50%;
+    border: none;
+}
+.bottom-menu__call:hover{
+    outline:2px solid var(--dark-blue-color);
+}
 
 .bottom-menu__containerLeft>span{
     margin-right: 10px;
