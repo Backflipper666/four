@@ -81,7 +81,6 @@ html, body {
     background-color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #B8FFEC;
     align-items: center;
 }
 .upperMenu__burger{
@@ -230,6 +229,10 @@ div.upperMenu img{
     margin-bottom: 15px;
     font-weight: 200;
 }
+.bottom-menu__mail-link{
+    text-decoration: none;
+    color:black;
+}
 .bottom-menu__phone{
     font-family: 'TTLakesCondensed-DemiBold', sans-serif;
     margin-left: 20px;
@@ -237,9 +240,23 @@ div.upperMenu img{
     font-weight: 900;
     font-size: 20px;
 }
+.bottom-menu__phone-link{
+    text-decoration: none;
+    color:black;
+}
 
 .bottom-menu__languages{
     font-family: 'TTLakesCondensed-Light', sans-serif;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+.bottom-menu__btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 10%;
+   
+}
+.bottom-menu__btn:hover, .bottom-menu__btn:active, .bottom-menu__btn:focus{
+    outline: 2px solid var(--dark-blue-color);
+  
 }
