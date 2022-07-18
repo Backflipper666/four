@@ -165,14 +165,37 @@ div.upperMenu img{
     border-radius: 50%;
     background: url("../images/call.svg") no-repeat 50% 50%;
     border: none;
+    margin-right: 10px;
 }
 .bottom-menu__call:hover{
+    outline:2px solid var(--dark-blue-color);
+}
+.bottom-menu__chat{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("../images/chat.svg") no-repeat 50% 50%;
+    border: none;
+    margin-right: 10px;
+}
+.bottom-menu__chat:hover{
     outline:2px solid var(--dark-blue-color);
 }
 
 .bottom-menu__containerLeft>span{
     margin-right: 10px;
 }
+.bottom-menu__profile{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url("../images/profile.svg") no-repeat 50% 50%;
+    border: none;
+}
+.bottom-menu__profile:hover{
+    outline:2px solid var(--dark-blue-color);
+}
+
 
 .bottom-menu__languages{
     display: flex;
