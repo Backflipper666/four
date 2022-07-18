@@ -134,6 +134,14 @@ div.upperMenu img{
 .links__services{
     font-family: 'TTLakes-Regular', sans-serif;
     margin-bottom: 25px;
+    text-decoration: none;
+    color:black;
+}
+.links__li{
+    list-style-type: none;
+    margin-left: -25px;
+    padding-left: 0;
+    
 }
 
 /* 
