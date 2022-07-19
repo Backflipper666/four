@@ -167,12 +167,32 @@ html, body {
     font-family: 'TTLakesCondensed-ExtraLight', sans-serif;
     
 }
+.links__first{
+    position: relative;
+    font-family: 'TTLakesCondensed-ExtraLight', sans-serif;
 
+}
+.links__first::before{
+    content: '';
+    background-image: url("../images/highlight.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    left:-15px;
+    top:-5px;
+    z-index: 2;
+    height: 33px;
+    width: 5px;
+
+}
 .links__services{
     font-family: 'TTLakes-Regular', sans-serif;
     margin-bottom: 25px;
     text-decoration: none;
     color:black;
+}
+.links__firstLink{
+    font-family: 'TTLakesCondensed-ExtraLight', sans-serif;
 }
 .links__li{
     list-style-type: none;
@@ -188,9 +208,7 @@ html, body {
     background-color: #807575;
 
 } */
-.bottom-menu__buttons{
-     
-}
+
 .bottom-menu__call{
     width:40px;
     height: 40px;
