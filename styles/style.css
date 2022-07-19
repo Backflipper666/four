@@ -74,14 +74,17 @@ html, body {
     margin:0;
     padding: 0;
     box-shadow: none;
-    shape-outside: none;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     background-color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
     align-items: center;
+    height: 90px;
+}
+.upperMenu__containerLeft{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 .upperMenu__burger{
     vertical-align:middle;
