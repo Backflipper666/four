@@ -79,12 +79,18 @@ html, body {
     justify-content: space-around;
     background-color: #fff;
     align-items: center;
+    padding: 15px 0px;
   
 }
 .upperMenu__containerLeft{
     display: flex;
     align-items: center;
     column-gap: 10px;
+    margin-left: -25px;
+
+}
+.upperMenu__containerRight{
+    margin-right: -30px;
 }
 .upperMenu__burgerIcon{
     background: url("../images/burger.svg") no-repeat 50% 50%;
@@ -130,13 +136,11 @@ html, body {
     vertical-align: middle;
 }
 
-div.upperMenu img{
-    /*-top: 15px;
-    margin-bottom: 15px;
-    */
+/* div.upperMenu img{
+
     margin: 15px auto;
 
-}
+} */
 
 .about__wrapper{
     margin-top: -10px;
