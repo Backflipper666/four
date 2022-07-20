@@ -38,36 +38,22 @@
 
 }
 
-/*TTLakesCondensed-Light*/
-#root{
-    position: absolute;
-    top: 0;
-    left: 0;
+
+body, html{
+    margin: 0;
     height: 100%;
-    margin: 0;
+    box-sizing: border-box;
 }
-html, body {
-    height: 100vh;
+*, *:before, *:after {
+    box-sizing: inherit;
   }
-
-  body {
-    display: flex;
-    align-items: stretch;
-    margin: 0;
-  }
-  #root {
-    width: 100%
-  }
-
 .wrapper{
-    position: absolute;
     width: 320px;
-    left: 0;
-    top: 0;
     background-color: #fff;
-    height:100%;
     position: relative;
     box-shadow: 5px 0 50px 0 rgb(107, 107, 106);
+    height: 100%;
+    overflow: scroll;
 }
 
 .upperMenu__wrapper{
@@ -258,18 +244,27 @@ html, body {
 .flex{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     justify-content: space-between;
-    align-content: space-between;
-    
+    height: 89%;
+    overflow: scroll;
+  
+/*     align-items: stretch;
+    align-content: space-between; */
 
 }
-
-.footer{
+/* .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ */
+/* .footer{
     position: absolute;
     bottom: 0;
     left: 0;
-}
+} */
+
+
 .bottom-menu__wrapper{
     margin-left: 20px;
     margin-bottom: 15px;
@@ -309,5 +304,4 @@ html, body {
 }
 .bottom-menu__btn:hover, .bottom-menu__btn:active, .bottom-menu__btn:focus{
     outline: 2px solid var(--dark-blue-color);
-  
 }
