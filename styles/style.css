@@ -83,11 +83,12 @@ body, html{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: none;
+    border: 1px solid #fff;
+    transition: border 200ms ease-in-out;
    
 }
 .upperMenu__burgerIcon:hover, .upperMenu__burgerIcon:active, .upperMenu__burgerIcon:focus{
-    outline:2px solid var(--dark-blue-color);
+    border:2px solid var(--dark-blue-color);
 }
 .upperMenu__callIcon{
     background: url("../images/call.svg") no-repeat 50% 50%;
@@ -207,22 +208,24 @@ body, html{
     height: 40px;
     border-radius: 50%;
     background: url("../images/call.svg") no-repeat 50% 50%;
-    border: none;
+    border: 1px solid #fff;
+    transition: border 200ms ease-in-out;
     margin-right: 10px;
 }
 .bottom-menu__call:hover{
-    outline:2px solid var(--dark-blue-color);
+    border:2px solid var(--dark-blue-color);
 }
 .bottom-menu__chat{
     width:40px;
     height: 40px;
     border-radius: 50%;
     background: url("../images/chat.svg") no-repeat 50% 50%;
-    border: none;
+    border: 1px solid #fff;
+    transition: border 200ms ease-in-out;
     margin-right: 10px;
 }
 .bottom-menu__chat:hover{
-    outline:2px solid var(--dark-blue-color);
+    border:2px solid var(--dark-blue-color);
 }
 
 .bottom-menu__containerLeft>span{
@@ -233,10 +236,11 @@ body, html{
     height: 40px;
     border-radius: 50%;
     background: url("../images/profile.svg") no-repeat 50% 50%;
-    border: none;
+    border: 1px solid #fff;
+    transition: border 200ms ease-in-out;
 }
 .bottom-menu__profile:hover{
-    outline:2px solid var(--dark-blue-color);
+    border:2px solid var(--dark-blue-color);
 }
 
 
