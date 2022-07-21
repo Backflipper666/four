@@ -43,6 +43,7 @@ body, html{
     margin: 0;
     height: 100%;
     box-sizing: border-box;
+   
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -52,8 +53,10 @@ body, html{
     background-color: #fff;
     position: relative;
     box-shadow: 5px 0 50px 0 rgb(107, 107, 106);
-    height: 100%;
-    overflow: auto;
+    position: fixed;
+    top:0;
+    bottom:0;
+ 
 }
 
 .upperMenu__wrapper{
@@ -257,7 +260,7 @@ body, html{
     flex-direction: column;
     justify-content: space-between;
     height: 89%;
-    overflow: scroll;
+    
   
 /*     align-items: stretch;
     align-content: space-between; */
