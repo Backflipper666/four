@@ -48,7 +48,7 @@ body, html{
 *, *:before, *:after {
     box-sizing: inherit;
   }
-.wrapper{
+.wrapper-sidebar{
     width: 320px;
     background-color: #fff;
     position: relative;
@@ -60,7 +60,7 @@ body, html{
  
 }
 
-.upperMenu__wrapper{
+.upMenu__wrapper-sidebar{
     margin:0;
     padding: 0;
     box-shadow: none;
@@ -72,17 +72,17 @@ body, html{
     padding: 15px 0px;
   
 }
-.upperMenu__containerLeft{
+.upMenu__containerLeft{
     display: flex;
     align-items: center;
     column-gap: 10px;
     margin-left: -25px;
 
 }
-.upperMenu__containerRight{
+.upMenu__containerRight{
     margin-right: -30px;
 }
-.upperMenu__burgerIcon{
+.upMenu__burgerIcon{
     background: url("../images/burger.svg") no-repeat 50% 50%;
     height: 40px;
     width: 40px;
@@ -91,10 +91,10 @@ body, html{
     transition: border 200ms ease-in-out;
    
 }
-.upperMenu__burgerIcon:hover, .upperMenu__burgerIcon:active, .upperMenu__burgerIcon:focus{
+.upMenu__burgerIcon:hover, .upMenu__burgerIcon:active, .upMenu__burgerIcon:focus{
     border:2px solid var(--dark-blue-color);
 }
-.upperMenu__callIcon{
+.upMenu__callIcon{
     background: url("../images/call.svg") no-repeat 50% 50%;
     height: 40px;
     width: 40px;
@@ -102,35 +102,35 @@ body, html{
     border: 1px solid #fff;
     transition: border 200ms ease-in-out;
 }
-.upperMenu__callIcon:hover, .upperMenu__callIcon:active, .upperMenu__callIcon:focus{
+.upMenu__callIcon:hover, .upMenu__callIcon:active, .upMenu__callIcon:focus{
     border:2px solid var(--dark-blue-color);
     transition: all 200ms ease-in-out;
 }
-.upperMenu__callIcon{
+.upMenu__callIcon{
     outline: none;
     transition: all 200ms ease-in-out;
 }
-.upperMenu__burger{
+.upMenu__burger{
     vertical-align:middle;
     margin-left: 10px;
     margin-right: 10px;
 
 }
-.upperMenu__group{
+.upMenu__group{
     vertical-align: middle;
    
 }
-.upperMenu__divider{
+.upMenu__divider{
     vertical-align: middle;
     margin-left: 15px;
     margin-right: 15px;
 }
-.upperMenu__repair{
+.upMenu__repair{
     vertical-align: middle;
     /*border: 1px solid #000;
     margin-left: 10px;*/
 }
-.upperMenu__check{
+.upMenu__check{
     vertical-align: middle;
 }
 
@@ -207,7 +207,7 @@ body, html{
 
 } */
 
-.bottom-menu__call{
+.btm-menu__call{
     width:40px;
     height: 40px;
     border-radius: 50%;
@@ -216,10 +216,10 @@ body, html{
     transition: border 200ms ease-in-out;
     margin-right: 10px;
 }
-.bottom-menu__call:hover{
+.btm-menu__call:hover{
     border:2px solid var(--dark-blue-color);
 }
-.bottom-menu__chat{
+.btm-menu__chat{
     width:40px;
     height: 40px;
     border-radius: 50%;
@@ -228,14 +228,14 @@ body, html{
     transition: border 200ms ease-in-out;
     margin-right: 10px;
 }
-.bottom-menu__chat:hover{
+.btm-menu__chat:hover{
     border:2px solid var(--dark-blue-color);
 }
 
-.bottom-menu__containerLeft>span{
+.btm-menu__containerLeft>span{
     margin-right: 10px;
 }
-.bottom-menu__profile{
+.btm-menu__profile{
     width:40px;
     height: 40px;
     border-radius: 50%;
@@ -243,16 +243,16 @@ body, html{
     border: 1px solid #fff;
     transition: border 200ms ease-in-out;
 }
-.bottom-menu__profile:hover{
+.btm-menu__profile:hover{
     border:2px solid var(--dark-blue-color);
 }
 
 
-.bottom-menu__languages{
+.btm-menu__languages{
     display: flex;
     column-gap: 10px;
 }
-.bottom-menu__ru{
+.btm-menu__ru{
     color:#7E7E82;
 }
 
@@ -280,38 +280,38 @@ body, html{
 } */
 
 
-.bottom-menu__wrapper{
+.btm-menu__wrapper{
     margin-left: 20px;
     margin-bottom: 15px;
 }
-.bottom-menu__mail{
+.btm-menu__mail{
     font-family: 'TTLakes-Light', sans-serif;
     margin-left: 20px;
     margin-bottom: 15px;
     font-weight: 200;
 }
-.bottom-menu__mail-link{
+.btm-menu__mail-link{
     text-decoration: none;
     color:black;
 }
-.bottom-menu__phone{
+.btm-menu__phone{
     font-family: 'TTLakesCondensed-DemiBold', sans-serif;
     margin-left: 20px;
     margin-bottom: 40px;
     font-weight: 900;
     font-size: 20px;
 }
-.bottom-menu__phone-link{
+.btm-menu__phone-link{
     text-decoration: none;
     color:black;
 }
 
-.bottom-menu__languages{
+.btm-menu__languages{
     font-family: 'TTLakesCondensed-Light', sans-serif;
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.bottom-menu__btn{
+.btm-menu__btn{
     background-color: #fff;
     border: none;
     border-radius: 10%;
@@ -319,6 +319,6 @@ body, html{
     transition: all 200ms ease-in;
    
 }
-.bottom-menu__btn:hover, .bottom-menu__btn:active, .bottom-menu__btn:focus{
+.btm-menu__btn:hover, .btm-menu__btn:active, .btm-menu__btn:focus{
     outline: 2px solid var(--dark-blue-color);
 }
